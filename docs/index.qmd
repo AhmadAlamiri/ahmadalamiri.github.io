@@ -1,0 +1,19 @@
+---
+title: "Compound Discoverer"
+subtitle: "Scripting Node"
+subject: "Compound Discoverer 3.3 SP3 (CD 3.3.3) - Scripting Node"
+author: "Ahmad Alamiri"
+format: html
+editor: visual
+toc: true
+toc-depth: 2
+theme: 
+    light: materia
+    dark: slate
+---
+
+# Compound Discoverer
+
+## [Scripting Node Guide (for Python)](http(s)://ahmadalamiri.github.io/ "Scripting Node Guide (for Python)")
+
+## [Scripting Node Guide (for R)](http(s)://ahmadalamiri.github.io/ "Scripting Node Guide (for R)")
