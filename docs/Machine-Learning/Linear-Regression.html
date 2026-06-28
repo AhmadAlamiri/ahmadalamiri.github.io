@@ -273,7 +273,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="dropdown-menu" aria-labelledby="nav-menu-machine-learning">    
         <li>
     <a class="dropdown-item" href="../Machine-Learning/Linear-Regression.html">
- <span class="dropdown-text">Linear Regression Diagnostic Dashboard</span></a>
+ <span class="dropdown-text">Linear Regression Diagnostic Dashboard <span class="badge bg-warning text-dark" style="margin-left: 10px;">BETA</span></span></a>
   </li>  
     </ul>
   </li>
@@ -343,18 +343,37 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 
 
-<!-- Custom CSS to hide only the inner dashboard page heading bar -->
+<!-- Custom CSS to seamlessly style the dashboard header and append the BETA badge -->
 <style class="bslib-grid-item html-fill-item">
-    header.quarto-dashboard-header, 
-    .quarto-dashboard-header,
-    div.quarto-dashboard-header-title-container {
-        display: none !important;
+  /* Format and clean up margins on the inner dashboard page header */
+    header.quarto-dashboard-header {
+        background-color: transparent !important;
+        border-bottom: none !important;
+        padding-bottom: 0px !important;
+        margin-bottom: -5px !important;
     }
-    
-    /* Remove extra top padding caused by the hidden header */
-    #quarto-dashboard-content, 
-    .quarto-dashboard-content {
-        padding-top: 10px !important;
+
+  /* Select the dashboard H1 title text and force an inline CSS pseudo-element badge */
+    .quarto-dashboard-header h1, 
+    .quarto-dashboard-header-title-container h1 {
+        font-size: 1.6rem !important;
+        font-weight: 600 !important;
+        display: inline-flex !important;
+        align-items: center !important;
+    }
+
+  /* Create and inject the warning colored BETA badge directly next to the text natively */
+    .quarto-dashboard-header h1::after, 
+    .quarto-dashboard-header-title-container h1::after {
+        content: "BETA" !important;
+        background-color: #FFC107 !important; /* Bootstrap Warning Yellow */
+        color: #212529 !important;            /* Dark text for contrast readability */
+        font-size: 0.85rem !important;
+        font-weight: 700 !important;
+        padding: 0.25em 0.6em !important;
+        margin-left: 12px !important;
+        border-radius: 0.375rem !important;   /* Rounded badge styling */
+        letter-spacing: 0.05em !important;
     }
 </style>
 <div class="bslib-grid-item html-fill-item bslib-grid" data-layout="fill" style="display: grid; grid-template-rows: minmax(3em, 100fr); grid-auto-columns: minmax(0, 1fr);">
@@ -363,20 +382,6 @@ grid-auto-rows: minmax(0, 1fr);">
 <div class="card bslib-card html-fill-container" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
 <iframe src="Linear-Regression-App/index.html" style="width:100%; height:850px; border:none;" id="shiny-app-iframe">
 </iframe>
-<!-- Injecting JavaScript to target and hide the Shiny app's internal light/dark mode switch -->
-<script>
-    const iframe = document.getElementById('shiny-app-iframe');
-    iframe.addEventListener('load', function() {
-        try {
-        const iframeDocument = iframe.contentDocument || iframe.contentWindow.document;
-        const style = iframeDocument.createElement('style');
-        style.innerHTML = '.bslib-light-dark-switch { display: none !important; }';
-        iframeDocument.head.appendChild(style);
-        } catch (e) {
-        console.warn("Cross-origin communication restriction or iframe loading error:", e);
-        }
-    });
-</script>
 <bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
     <template>Expand</template>
     <span class="bslib-full-screen-enter badge rounded-pill">
