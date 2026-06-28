@@ -1,10 +1,24 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Ahmad Alamiri",
+    "objectID": "Machine-Learning/Machine-Learning.html",
+    "href": "Machine-Learning/Machine-Learning.html",
+    "title": "Machine Learning",
     "section": "",
-    "text": "Applications Scientist with interests (mostly) in science, mathematics, and technology."
+    "text": "Machine Learning\nText"
+  },
+  {
+    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–Custom_Script_Integration.html#scripting-node-overview",
+    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–Custom_Script_Integration.html#scripting-node-overview",
+    "title": "Compound Discoverer Scripting Node —— Custom Script Integration",
+    "section": "Scripting Node Overview",
+    "text": "Scripting Node Overview\nPurpose\n\nThe Scripting Node is a customizable node that allows you to run an executable file as the final node in a workflow and to incorporate the result data into the application’s result file.\n\nIntroduced as a new feature in Compound Discoverer 3.1 (Proteome Discoverer 2.4).\n\nData exchange between the application and executable files does not require .NET code and it does not use application API (Application Programming Interface).\nUser declares desired Tables and Columns from a Result File:\n\nInformation is exported into one or more tab-separated text files.\nInformation describing the structure and location of the files is exported as a JSON (JavaScript Object Notation) file.\n\nUser scripts and executables can then:\n\nRead those files.\nPerform user-defined analyses.\n(Optionally) Write new information in tab-separated text files along with a JSON file describing their structure.\n\nCan be imported back into the application – Data viewed using the application itself."
+  },
+  {
+    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–Custom_Script_Integration.html#scripting-node-overview-1",
+    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–Custom_Script_Integration.html#scripting-node-overview-1",
+    "title": "Compound Discoverer Scripting Node —— Custom Script Integration",
+    "section": "Scripting Node Overview",
+    "text": "Scripting Node Overview\nCapabilities and Limitations\n\nCapabilities:\n\nCan use any programming language that supports running code from command line (e.g., Python, R, C#, C++, etc.).\nRun as a Post Processing Node (default) and can be registered as a standalone Workflow Node (Processing or Consensus).\nCan be shared with other Compound Discoverer (Proteome Discoverer) users.\n\nLimitations:\n\nCannot Node access MS/MS data.\nCan only act upon viewable tables and columns from a Result File.\nFor deeper integration (i.e., to integrate Search Engines, Statistical Algorithms, or other Workflows), the user must use the Node Development Toolkit.\n\nRequest by contacting cd.support@thermofisher.com.\nRequires C# programing knowledge.\nVery powerful and flexible but at the cost of a steep learning curve."
   },
   {
     "objectID": "Compound-Discoverer/Scripting-Node/Scripting-Node-Guide-for-Python.html",
@@ -124,6 +138,76 @@
     "title": "Scripting Node Guide",
     "section": "License",
     "text": "License\nMIT License\nCopyright (c) 2025 Ahmad Alamiri\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+  },
+  {
+    "objectID": "Compound-Discoverer/Scripting-Node/CMAcquisitionListScript_v1.2/CMAcquisitionListScript_v1.2-Python.html#overview",
+    "href": "Compound-Discoverer/Scripting-Node/CMAcquisitionListScript_v1.2/CMAcquisitionListScript_v1.2-Python.html#overview",
+    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2.py",
+    "section": "Overview",
+    "text": "Overview"
+  },
+  {
+    "objectID": "Compound-Discoverer/Scripting-Node/CMAcquisitionListScript_v1.2/CMAcquisitionListScript_v1.2-Python.html#usage",
+    "href": "Compound-Discoverer/Scripting-Node/CMAcquisitionListScript_v1.2/CMAcquisitionListScript_v1.2-Python.html#usage",
+    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2.py",
+    "section": "Usage",
+    "text": "Usage"
+  },
+  {
+    "objectID": "Compound-Discoverer/Scripting-Node/CMAcquisitionListScript_v1.2/CMAcquisitionListScript_v1.2-Python.html#conventions",
+    "href": "Compound-Discoverer/Scripting-Node/CMAcquisitionListScript_v1.2/CMAcquisitionListScript_v1.2-Python.html#conventions",
+    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2.py",
+    "section": "Conventions",
+    "text": "Conventions"
+  },
+  {
+    "objectID": "Compound-Discoverer/Scripting-Node/CMAcquisitionListScript_v1.2/CMAcquisitionListScript_v1.2-Python.html#references",
+    "href": "Compound-Discoverer/Scripting-Node/CMAcquisitionListScript_v1.2/CMAcquisitionListScript_v1.2-Python.html#references",
+    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2.py",
+    "section": "References",
+    "text": "References"
+  },
+  {
+    "objectID": "Compound-Discoverer/Scripting-Node/CMAcquisitionListScript_v1.2/CMAcquisitionListScript_v1.2-Python.html#download",
+    "href": "Compound-Discoverer/Scripting-Node/CMAcquisitionListScript_v1.2/CMAcquisitionListScript_v1.2-Python.html#download",
+    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2.py",
+    "section": "Download",
+    "text": "Download"
+  },
+  {
+    "objectID": "Compound-Discoverer/Scripting-Node/CMAcquisitionListScript_v1.2/CMAcquisitionListScript_v1.2-R.html#overview",
+    "href": "Compound-Discoverer/Scripting-Node/CMAcquisitionListScript_v1.2/CMAcquisitionListScript_v1.2-R.html#overview",
+    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2.r",
+    "section": "Overview",
+    "text": "Overview"
+  },
+  {
+    "objectID": "Compound-Discoverer/Scripting-Node/CMAcquisitionListScript_v1.2/CMAcquisitionListScript_v1.2-R.html#usage",
+    "href": "Compound-Discoverer/Scripting-Node/CMAcquisitionListScript_v1.2/CMAcquisitionListScript_v1.2-R.html#usage",
+    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2.r",
+    "section": "Usage",
+    "text": "Usage"
+  },
+  {
+    "objectID": "Compound-Discoverer/Scripting-Node/CMAcquisitionListScript_v1.2/CMAcquisitionListScript_v1.2-R.html#conventions",
+    "href": "Compound-Discoverer/Scripting-Node/CMAcquisitionListScript_v1.2/CMAcquisitionListScript_v1.2-R.html#conventions",
+    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2.r",
+    "section": "Conventions",
+    "text": "Conventions"
+  },
+  {
+    "objectID": "Compound-Discoverer/Scripting-Node/CMAcquisitionListScript_v1.2/CMAcquisitionListScript_v1.2-R.html#references",
+    "href": "Compound-Discoverer/Scripting-Node/CMAcquisitionListScript_v1.2/CMAcquisitionListScript_v1.2-R.html#references",
+    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2.r",
+    "section": "References",
+    "text": "References"
+  },
+  {
+    "objectID": "Compound-Discoverer/Scripting-Node/CMAcquisitionListScript_v1.2/CMAcquisitionListScript_v1.2-R.html#download",
+    "href": "Compound-Discoverer/Scripting-Node/CMAcquisitionListScript_v1.2/CMAcquisitionListScript_v1.2-R.html#download",
+    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2.r",
+    "section": "Download",
+    "text": "Download"
   },
   {
     "objectID": "Compound-Discoverer/Scripting-Node/Scripting-Node-Guide-for-R.html",
@@ -252,570 +336,17 @@
     "text": "License\nMIT License\nCopyright (c) 2025 Ahmad Alamiri\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Selected Works",
+    "objectID": "Machine-Learning/Linear-Regression.html",
+    "href": "Machine-Learning/Linear-Regression.html",
+    "title": "Linear Regression - Shiny - Python",
     "section": "",
-    "text": "Excerpts of selected works can be found below. These snippets provide a glimpse into the content. For a more comprehensive understanding, please follow the provided links."
+    "text": "#| '!! shinylive warning !!': |\n#|   shinylive does not work in self-contained HTML documents.\n#|   Please set `embed-resources: false` in your metadata.\n#| standalone: true\n\n\nimport io\nimport os\nimport pandas as pd\nimport numpy as np\nimport statsmodels.api as sm\nfrom statsmodels.stats.outliers_influence import variance_inflation_factor\nfrom shiny import App, render, ui, reactive\nfrom shinywidgets import output_widget, render_widget\nimport plotly.express as px\nimport plotly.graph_objects as go\n\n# Journal Style CSS\nJOURNAL_CSS = \"\"\"\n.table { font-family: 'Times New Roman', serif !important; font-size: 14px; margin-bottom: 0.5rem; }\n.table thead { background-color: #f8f9fa; }\npre { font-family: 'Times New Roman', serif !important; font-size: 16px; background-color: #f8f9fa; padding: 10px; border-radius: 5px; }\n.interpretation { font-style: italic; color: #555; margin-top: 10px; border-left: 3px solid #ccc; padding-left: 10px; }\n.sig-legend { font-family: 'Times New Roman', serif; font-size: 12px; color: #666; margin-bottom: 2rem; }\n\"\"\"\n\napp_ui = ui.page_sidebar(\n    ui.sidebar(\n        ui.input_file(\"file1\", \"1. Upload Your CSV\", accept=[\".csv\"]),\n        ui.input_select(\"x_col\", \"X Predictor\", choices=[]),\n        ui.input_select(\"y_col\", \"Y Dependent\", choices=[]),\n        ui.input_numeric(\"sigma_val\", \"Outlier Sigma\", value=3.0, step=0.1),\n        ui.input_slider(\"conf_level\", \"Confidence Level (%)\", 80, 99, 95),\n        ui.hr(),\n        ui.download_button(\"download_pdf\", \"📥 Download Full PDF Report\", class_=\"btn-primary w-100\"),\n    ),\n    ui.navset_tab(\n        ui.nav_panel(\"Main Analysis\", \n            ui.tags.style(JOURNAL_CSS),\n            ui.output_text_verbatim(\"equation\"),\n            output_widget(\"plot_fit_interactive\"),\n            ui.h5(\"Model Error Metrics\"),\n            ui.output_table(\"table_metrics\"),\n            ui.h5(\"Multicollinearity (VIF)\"),\n            ui.output_table(\"table_vif\"),\n            ui.h5(\"Model Characteristics\"),\n            ui.output_table(\"table_summary_0\"),\n            ui.h5(\"Coefficient Estimates (with Significance Stars)\"),\n            ui.output_table(\"table_summary_1\"),\n            ui.div(ui.markdown(\"Significance codes: 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\"), class_=\"sig-legend\"),\n            ui.h5(\"Residual Statistics\"),\n            ui.output_table(\"table_summary_2\"),\n            ui.hr(),\n            ui.h5(\"Predictive Intervals (Journal View)\"),\n            ui.output_table(\"table_intervals\"),\n            ui.div(\n                ui.input_action_button(\"prev_10\", \"Prev 10\", class_=\"btn-outline-secondary btn-sm\"),\n                ui.input_action_button(\"next_10\", \"Next 10\", class_=\"btn-outline-secondary btn-sm\"),\n                class_=\"d-flex justify-content-start gap-2 mb-4\"\n            ),\n        ),\n        ui.nav_panel(\"Residual vs Predictor\", output_widget(\"plot_resid_pred\"), ui.div(ui.markdown(\"**Interpretation:** Checks if error variance is independent of the predictor.\"), class_=\"interpretation\")),\n        ui.nav_panel(\"Residual vs Fitted\", output_widget(\"plot_resid_fit\"), ui.div(ui.markdown(\"**Interpretation:** Identifies non-linearity or heteroscedasticity.\"), class_=\"interpretation\")),\n        ui.nav_panel(\"Scale-Location\", output_widget(\"plot_scale_location\"), ui.div(ui.markdown(\"**Interpretation:** Specifically checks the homoscedasticity assumption.\"), class_=\"interpretation\")),\n        ui.nav_panel(\"Residual vs Leverage\", output_widget(\"plot_resid_leverage\"), ui.div(ui.markdown(\"**Interpretation:** Used to identify influential observations.\"), class_=\"interpretation\")),\n        ui.nav_panel(\"Error Distribution\", output_widget(\"plot_hist\"), ui.div(ui.markdown(\"**Interpretation:** Visualizes the frequency of residuals.\"), class_=\"interpretation\")),\n        ui.nav_panel(\"Normal Q-Q\", output_widget(\"plot_qq\"), ui.div(ui.markdown(\"**Interpretation:** Compares actual residuals against normal distribution.\"), class_=\"interpretation\")),\n        ui.nav_panel(\"Cook's Distance\", output_widget(\"plot_cooks\"), ui.div(ui.markdown(\"**Interpretation:** Measures point influence.\"), class_=\"interpretation\")),\n        ui.nav_panel(\"Correlation Heatmap\", output_widget(\"plot_heatmap\"), ui.div(ui.markdown(\"**Interpretation:** Pearson correlations between variables.\"), class_=\"interpretation\")),\n    ),\n    title=\"Academic Regression Dashboard\"\n)\n\ndef server(input, output, session):\n    current_page = reactive.Value(0)\n\n    @reactive.calc\n    def data():\n        f = input.file1()\n        if f: return pd.read_csv(f[\"datapath\"])\n        local_path = os.path.join(os.path.dirname(__file__), \"app/data\", \"test.csv\")\n        if os.path.exists(local_path): return pd.read_csv(local_path)\n        return pd.DataFrame()\n\n    @reactive.effect\n    def _update_cols():\n        df = data()\n        if not df.empty:\n            cols = df.select_dtypes(include=[np.number]).columns.tolist()\n            ui.update_select(\"x_col\", choices=cols, selected=cols if cols else None)\n            ui.update_select(\"y_col\", choices=cols, selected=cols if len(cols) &gt; 1 else None)\n\n    @reactive.calc\n    def model_results():\n        df = data()\n        if df.empty or not input.x_col() or not input.y_col(): return None\n        df_reg = df[[input.x_col(), input.y_col()]].apply(pd.to_numeric, errors='coerce').dropna()\n        X = sm.add_constant(df_reg[input.x_col()])\n        model = sm.OLS(df_reg[input.y_col()], X).fit()\n        influence = model.get_influence()\n        outliers = df_reg[np.abs(influence.resid_studentized_internal) &gt; input.sigma_val()]\n        return {\"model\": model, \"df\": df_reg, \"X\": X, \"infl\": influence, \"outliers\": outliers}\n\n    @render.text\n    def equation():\n        res = model_results()\n        if not res: return \"Awaiting Data...\"\n        p = res['model'].params\n        return f\"Equation: {input.y_col()} = ({p.iloc[1]:.4f} * {input.x_col()}) + ({p.iloc[0]:.4f})\"\n\n    @render_widget\n    def plot_fit_interactive():\n        res = model_results()\n        if not res: return go.Figure()\n        x_rng = np.linspace(res[\"df\"][input.x_col()].min(), res[\"df\"][input.x_col()].max(), 100)\n        preds = res[\"model\"].get_prediction(sm.add_constant(x_rng)).summary_frame(alpha=1-(input.conf_level()/100))\n        fig = px.scatter(res[\"df\"], x=input.x_col(), y=input.y_col(), title=\"Regression Fit with CI/PI & Outliers\")\n        fig.add_trace(go.Scatter(x=np.concatenate([x_rng, x_rng[::-1]]), \n                                 y=np.concatenate([preds['obs_ci_upper'], preds['obs_ci_lower'][::-1]]),\n                                 fill='toself', fillcolor='rgba(150,150,150,0.2)', line_color='rgba(255,255,255,0)', name='95% PI'))\n        fig.add_trace(go.Scatter(x=np.concatenate([x_rng, x_rng[::-1]]), \n                                 y=np.concatenate([preds['mean_ci_upper'], preds['mean_ci_lower'][::-1]]),\n                                 fill='toself', fillcolor='rgba(0,100,255,0.2)', line_color='rgba(255,255,255,0)', name='95% CI'))\n        fig.add_trace(go.Scatter(x=x_rng, y=preds['mean'], mode='lines', name='OLS Fit', line=dict(color='black')))\n        if not res[\"outliers\"].empty:\n            fig.add_trace(go.Scatter(x=res[\"outliers\"][input.x_col()], y=res[\"outliers\"][input.y_col()], mode='markers+text',\n                                     text=[f\"Obs {i}\" for i in res[\"outliers\"].index], textposition=\"top center\",\n                                     marker=dict(color='red', size=10, symbol='circle-open'), name='Outliers'))\n        fig.update_layout(template=\"simple_white\", font_family=\"Times New Roman\", xaxis_title=input.x_col(), yaxis_title=input.y_col())\n        return fig\n\n    @render_widget\n    def plot_hist():\n        res = model_results()\n        if not res: return go.Figure()\n        fig = px.histogram(res[\"model\"].resid, title=\"Error Distribution\", labels={'value': 'Residuals', 'count': 'Frequency'})\n        fig.update_traces(marker_line_color='white', marker_line_width=1)\n        fig.update_layout(xaxis_title=\"Residuals\", yaxis_title=\"Frequency\")\n        return fig\n\n    @render_widget\n    def plot_cooks():\n        res = model_results()\n        if not res: return go.Figure()\n        fig = go.Figure(data=[go.Bar(y=res[\"infl\"].cooks_distance[0], name=\"Cook's D\")])\n        fig.update_layout(title=\"Cook's Distance\", xaxis_title=\"Observation Index\", yaxis_title=\"Influence\", \n                          yaxis=dict(nticks=10), template=\"simple_white\")\n        return fig\n\n    @render.table\n    def table_summary_1():\n        res = model_results()\n        if not res: return None\n        df = res[\"model\"].summary2().tables[1].reset_index().rename(columns={\"index\": \"Variable\"})\n        \n        def add_stars(p):\n            if p &lt; 0.001: return \"***\"\n            if p &lt; 0.01: return \"**\"\n            if p &lt; 0.05: return \"*\"\n            if p &lt; 0.1: return \".\"\n            return \"\"\n        \n        df[\"Sig\"] = df[\"P&gt;|t|\"].apply(add_stars)\n        return df\n\n    @render.table\n    def table_summary_0(): return model_results()[\"model\"].summary2().tables[0] if model_results() else None\n    @render.table\n    def table_summary_2(): return model_results()[\"model\"].summary2().tables[2] if model_results() else None\n\n    @render_widget\n    def plot_heatmap():\n        df = data()\n        if df.empty: return go.Figure()\n        corr = df.select_dtypes(include=[np.number]).corr()\n        fig = px.imshow(corr, text_auto=\".2f\", color_continuous_scale='RdBu_r', title=\"Correlation Heatmap\")\n        fig.update_layout(width=700, height=700, xaxis_title=\"Variables\", yaxis_title=\"Variables\")\n        return fig\n\n    @render_widget\n    def plot_resid_pred():\n        res = model_results()\n        if not res: return go.Figure()\n        fig = px.scatter(x=res[\"df\"][input.x_col()], y=res[\"model\"].resid, title=\"Residuals vs Predictor\", labels={'x': input.x_col(), 'y': 'Residuals'})\n        fig.add_hline(y=0, line_dash=\"dash\", line_color=\"red\")\n        fig.update_layout(xaxis_title=input.x_col(), yaxis_title=\"Residuals\")\n        return fig\n\n    @render_widget\n    def plot_resid_fit():\n        res = model_results()\n        if not res: return go.Figure()\n        fig = px.scatter(x=res[\"model\"].fittedvalues, y=res[\"model\"].resid, title=\"Residuals vs Fitted\", labels={'x': 'Fitted Values', 'y': 'Residuals'})\n        fig.add_hline(y=0, line_dash=\"dash\", line_color=\"red\")\n        fig.update_layout(xaxis_title=\"Fitted Values\", yaxis_title=\"Residuals\")\n        return fig\n\n    @render_widget\n    def plot_resid_leverage():\n        res = model_results()\n        if not res: return go.Figure()\n        fig = px.scatter(x=res[\"infl\"].hat_matrix_diag, y=res[\"infl\"].resid_studentized_internal, \n                          title=\"Residuals vs Leverage\", labels={'x': 'Leverage', 'y': 'Std Residuals'})\n        fig.update_layout(xaxis_title=\"Leverage\", yaxis_title=\"Standardized Residuals\")\n        return fig\n\n    @render_widget\n    def plot_scale_location():\n        res = model_results()\n        if not res: return go.Figure()\n        fig = px.scatter(x=res[\"model\"].fittedvalues, y=np.sqrt(np.abs(res[\"infl\"].resid_studentized_internal)), \n                          title=\"Scale-Location\", labels={'x': 'Fitted Values', 'y': 'sqrt|Std Residuals|'})\n        fig.update_layout(xaxis_title=\"Fitted Values\", yaxis_title=\"√|Standardized Residuals|\")\n        return fig\n\n    @render_widget\n    def plot_qq():\n        res = model_results()\n        if not res: return go.Figure()\n        from statsmodels.graphics.gofplots import ProbPlot\n        qq = ProbPlot(res[\"model\"].resid)\n        fig = go.Figure(data=[go.Scatter(x=qq.theoretical_quantiles, y=qq.sample_quantiles, mode='markers', name='Residuals')])\n        fig.add_trace(go.Scatter(x=[-3,3], y=[-3,3], mode='lines', line=dict(color='red', dash='dash'), name='Normal'))\n        fig.update_layout(title=\"Normal Q-Q\", xaxis_title=\"Theoretical Quantiles\", yaxis_title=\"Sample Quantiles\", template=\"simple_white\")\n        return fig\n\n    @render.table\n    def table_metrics():\n        res = model_results()\n        if not res: return None\n        r = res['model'].resid\n        return pd.DataFrame({\"Metric\": [\"MSE\", \"RMSE\", \"MAE\"], \"Value\": [f\"{np.mean(r**2):.4f}\", f\"{np.sqrt(np.mean(r**2)):.4f}\", f\"{np.mean(np.abs(r)):.4f}\"]})\n\n    @render.table\n    def table_vif():\n        res = model_results()\n        if not res: return None\n        X_v = res[\"X\"].values\n        return pd.DataFrame({\"Variable\": res[\"X\"].columns, \"VIF\": [f\"{variance_inflation_factor(X_v, i):.4f}\" for i in range(X_v.shape[1])]})\n\n    @render.table\n    def table_intervals():\n        res = model_results()\n        if not res: return None\n        p = res[\"model\"].get_prediction(res[\"X\"]).summary_frame(alpha=1-(input.conf_level()/100))\n        full = pd.concat([res[\"df\"][[input.x_col()]], p], axis=1).reset_index(drop=True)\n        start = current_page.get() * 10\n        return full.iloc[start : start + 10]\n\n    @reactive.effect\n    @reactive.event(input.next_10)\n    def _next(): current_page.set(current_page.get() + 1)\n    @reactive.effect\n    @reactive.event(input.prev_10)\n    def _prev(): current_page.set(max(0, current_page.get() - 1))\n\n    @render.download(filename=\"Report.pdf\")\n    def download_pdf(): yield b\"PDF\"\n\napp = App(app_ui, server)"
   },
   {
-    "objectID": "index.html#row",
-    "href": "index.html#row",
-    "title": "Selected Works",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Ahmad Alamiri",
     "section": "",
-    "text": "Excerpts of selected works can be found below. These snippets provide a glimpse into the content. For a more comprehensive understanding, please follow the provided links."
-  },
-  {
-    "objectID": "index.html#row-1",
-    "href": "index.html#row-1",
-    "title": "Selected Works",
-    "section": "Row",
-    "text": "Row\n\nA guide for developing Python scripts to be used with Thermo Fisher Scientific Compound Discoverer 3.3 SP3 (CD 3.3.3) software via the Scripting Node feature.\n\nLearn more…\n\n\nA guide for developing R scripts to be used with Thermo Fisher Scientific Compound Discoverer 3.3 SP3 (CD 3.3.3) software via the Scripting Node feature.\n\nLearn more…\n\n\nVisit the link below to access additional Compound Discoverer Scripting Node example scripts.\n\nLearn more…"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–Custom_Script_Integration.html#scripting-node-overview",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–Custom_Script_Integration.html#scripting-node-overview",
-    "title": "Compound Discoverer Scripting Node —— Custom Script Integration",
-    "section": "Scripting Node Overview",
-    "text": "Scripting Node Overview\nPurpose\n\nThe Scripting Node is a customizable node that allows you to run an executable file as the final node in a workflow and to incorporate the result data into the application’s result file.\n\nIntroduced as a new feature in Compound Discoverer 3.1 (Proteome Discoverer 2.4).\n\nData exchange between the application and executable files does not require .NET code and it does not use application API (Application Programming Interface).\nUser declares desired Tables and Columns from a Result File:\n\nInformation is exported into one or more tab-separated text files.\nInformation describing the structure and location of the files is exported as a JSON (JavaScript Object Notation) file.\n\nUser scripts and executables can then:\n\nRead those files.\nPerform user-defined analyses.\n(Optionally) Write new information in tab-separated text files along with a JSON file describing their structure.\n\nCan be imported back into the application – Data viewed using the application itself."
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–Custom_Script_Integration.html#scripting-node-overview-1",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–Custom_Script_Integration.html#scripting-node-overview-1",
-    "title": "Compound Discoverer Scripting Node —— Custom Script Integration",
-    "section": "Scripting Node Overview",
-    "text": "Scripting Node Overview\nCapabilities and Limitations\n\nCapabilities:\n\nCan use any programming language that supports running code from command line (e.g., Python, R, C#, C++, etc.).\nRun as a Post Processing Node (default) and can be registered as a standalone Workflow Node (Processing or Consensus).\nCan be shared with other Compound Discoverer (Proteome Discoverer) users.\n\nLimitations:\n\nCannot Node access MS/MS data.\nCan only act upon viewable tables and columns from a Result File.\nFor deeper integration (i.e., to integrate Search Engines, Statistical Algorithms, or other Workflows), the user must use the Node Development Toolkit.\n\nRequest by contacting cd.support@thermofisher.com.\nRequires C# programing knowledge.\nVery powerful and flexible but at the cost of a steep learning curve."
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-overview",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-overview",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2",
-    "section": "CMAcquisitionListScript – Overview",
-    "text": "CMAcquisitionListScript – Overview"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-overview-1",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-overview-1",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2",
-    "section": "CMAcquisitionListScript – Overview",
-    "text": "CMAcquisitionListScript – Overview\nGeneral Mechanism\n\nExports data (tables) listed in the node parameter Requested Tables and Columns.\n\nData are exported as tab-separated text files.\nRequires the following tables (in order): GC EI Compounds, GC EI Compounds per File, and Features per File.\nThe order of tables is important for the script.\nIncorrect order and/or typographical errors in the names of tables will result in Execution Failure error.\n\nWrites a “node_args.json” file:\n\nUsed by the script to receive information from the application.\nContains essential information about the exported data, including location of the text files and the row IDs and columns for the exported tables.\n\nDoes not produce a response (“node_response.json”) file – no results are imported/integrated back into Compound Discoverer result files.\nProduces a csv file, ‘Acquisition List’, in the format ‘Exploris Orbitrap LCMS and GCMS Family’.\nGenerates an ‘Acquisition List’ of compounds each with up to its top three (3) largest (by area counts) m/z ions.\nThe file ‘Acquisition List.csv’ is saved in the local user’s “Downloads” folder (“C:[user.name]”)."
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-overview-2",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-overview-2",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2",
-    "section": "CMAcquisitionListScript – Overview",
-    "text": "CMAcquisitionListScript – Overview\nPrerequisites and Setup\n\nCompound Discoverer 3.1 and above.\n\nAuthor only tested Compound Discoverer 3.3 SP3 (CD 3.3.3) and 3.4 (CD 3.4).\n\nChromeleon CDS 7.3.2.\nOrbitrap Exploris GC Method Editor 4.1.3xx and above.\nThe latest release (recommended) of the programming language in which the script was written (Python) should be installed on the same computer running the Compound Discoverer application.\n\nFor Python, visit https://www.python.org.\n\nThe script requires the following Python Libraries, Packages, and Modules: json, os, pandas, sys, csv, traceback, and Path (from pathlib).\nIt is expected that the user using the script is already familiar with installation and configuration of the R programming language and its environment(s), dependencies, and libraries.\n\nThis topic is outside the scope of this presentation."
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-overview-3",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-overview-3",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2",
-    "section": "CMAcquisitionListScript – Overview",
-    "text": "CMAcquisitionListScript – Overview\nRequired Python Libraries, Packages, and Modules\n\nimport json                 # JSON encoder and decoder.\nimport os                   # Miscellaneous operating system interfaces.\nimport pandas as pd         # High-performance, easy-to-use data structures and data analysis tools for Python.\nimport sys                  # System-specific parameters and functions.\nimport csv                  # CSV File I/O.\nimport traceback            # Print or retrieve a stack traceback.\nfrom pathlib import Path    # Object-oriented filesystem paths."
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-in-a-workflow",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-in-a-workflow",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2",
-    "section": "CMAcquisitionListScript in a Workflow",
-    "text": "CMAcquisitionListScript in a Workflow"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-in-a-workflow-1",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-in-a-workflow-1",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2",
-    "section": "CMAcquisitionListScript in a Workflow",
-    "text": "CMAcquisitionListScript in a Workflow"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2",
-    "section": "CMAcquisitionListScript – Conventions",
-    "text": "CMAcquisitionListScript – Conventions"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-1",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-1",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2",
-    "section": "CMAcquisitionListScript – Conventions",
-    "text": "CMAcquisitionListScript – Conventions"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-2",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-2",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2",
-    "section": "CMAcquisitionListScript – Conventions",
-    "text": "CMAcquisitionListScript – Conventions"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-3",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-3",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2",
-    "section": "CMAcquisitionListScript – Conventions",
-    "text": "CMAcquisitionListScript – Conventions"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-4",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-4",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2",
-    "section": "CMAcquisitionListScript – Conventions",
-    "text": "CMAcquisitionListScript – Conventions"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-5",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-5",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2",
-    "section": "CMAcquisitionListScript – Conventions",
-    "text": "CMAcquisitionListScript – Conventions"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-6",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-6",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2",
-    "section": "CMAcquisitionListScript – Conventions",
-    "text": "CMAcquisitionListScript – Conventions"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-7",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-7",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2",
-    "section": "CMAcquisitionListScript – Conventions",
-    "text": "CMAcquisitionListScript – Conventions"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-8",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-8",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2",
-    "section": "CMAcquisitionListScript – Conventions",
-    "text": "CMAcquisitionListScript – Conventions"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-9",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-9",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2",
-    "section": "CMAcquisitionListScript – Conventions",
-    "text": "CMAcquisitionListScript – Conventions"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-10",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-10",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2",
-    "section": "CMAcquisitionListScript – Conventions",
-    "text": "CMAcquisitionListScript – Conventions"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-11",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-11",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2",
-    "section": "CMAcquisitionListScript – Conventions",
-    "text": "CMAcquisitionListScript – Conventions"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-12",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-12",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2",
-    "section": "CMAcquisitionListScript – Conventions",
-    "text": "CMAcquisitionListScript – Conventions"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-13",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-13",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2",
-    "section": "CMAcquisitionListScript – Conventions",
-    "text": "CMAcquisitionListScript – Conventions"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-14",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-14",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2",
-    "section": "CMAcquisitionListScript – Conventions",
-    "text": "CMAcquisitionListScript – Conventions"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-15",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-15",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2",
-    "section": "CMAcquisitionListScript – Conventions",
-    "text": "CMAcquisitionListScript – Conventions"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-16",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-16",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2",
-    "section": "CMAcquisitionListScript – Conventions",
-    "text": "CMAcquisitionListScript – Conventions"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-17",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-17",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2",
-    "section": "CMAcquisitionListScript – Conventions",
-    "text": "CMAcquisitionListScript – Conventions"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2.html#references",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2.html#references",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2",
-    "section": "References",
-    "text": "References"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-overview",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-overview",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2.py",
-    "section": "CMAcquisitionListScript – Overview",
-    "text": "CMAcquisitionListScript – Overview"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-in-a-workflow",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-in-a-workflow",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2.py",
-    "section": "CMAcquisitionListScript in a Workflow",
-    "text": "CMAcquisitionListScript in a Workflow"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-in-a-workflow-1",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-in-a-workflow-1",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2",
-    "section": "CMAcquisitionListScript in a Workflow",
-    "text": "CMAcquisitionListScript in a Workflow"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2.py",
-    "section": "CMAcquisitionListScript – Conventions",
-    "text": "CMAcquisitionListScript – Conventions"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-1",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-1",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2",
-    "section": "CMAcquisitionListScript – Conventions",
-    "text": "CMAcquisitionListScript – Conventions"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-2",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-2",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2",
-    "section": "CMAcquisitionListScript – Conventions",
-    "text": "CMAcquisitionListScript – Conventions"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-3",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-3",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2",
-    "section": "CMAcquisitionListScript – Conventions",
-    "text": "CMAcquisitionListScript – Conventions"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-4",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-4",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2",
-    "section": "CMAcquisitionListScript – Conventions",
-    "text": "CMAcquisitionListScript – Conventions"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-5",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-5",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2",
-    "section": "CMAcquisitionListScript – Conventions",
-    "text": "CMAcquisitionListScript – Conventions"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-6",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-6",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2",
-    "section": "CMAcquisitionListScript – Conventions",
-    "text": "CMAcquisitionListScript – Conventions"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-7",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-7",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2",
-    "section": "CMAcquisitionListScript – Conventions",
-    "text": "CMAcquisitionListScript – Conventions"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-8",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-8",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2",
-    "section": "CMAcquisitionListScript – Conventions",
-    "text": "CMAcquisitionListScript – Conventions"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-9",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-9",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2",
-    "section": "CMAcquisitionListScript – Conventions",
-    "text": "CMAcquisitionListScript – Conventions"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-10",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-10",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2",
-    "section": "CMAcquisitionListScript – Conventions",
-    "text": "CMAcquisitionListScript – Conventions"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-11",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-11",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2",
-    "section": "CMAcquisitionListScript – Conventions",
-    "text": "CMAcquisitionListScript – Conventions"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-12",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-12",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2",
-    "section": "CMAcquisitionListScript – Conventions",
-    "text": "CMAcquisitionListScript – Conventions"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-13",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-13",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2",
-    "section": "CMAcquisitionListScript – Conventions",
-    "text": "CMAcquisitionListScript – Conventions"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-14",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-14",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2",
-    "section": "CMAcquisitionListScript – Conventions",
-    "text": "CMAcquisitionListScript – Conventions"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-15",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-15",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2",
-    "section": "CMAcquisitionListScript – Conventions",
-    "text": "CMAcquisitionListScript – Conventions"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-16",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-16",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2",
-    "section": "CMAcquisitionListScript – Conventions",
-    "text": "CMAcquisitionListScript – Conventions"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-17",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2.html#cmacquisitionlistscript-conventions-17",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2",
-    "section": "CMAcquisitionListScript – Conventions",
-    "text": "CMAcquisitionListScript – Conventions"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2.html#references",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2.html#references",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2.py",
-    "section": "References",
-    "text": "References"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2-Python/Scripting_Node–CMAcquisitionListScript_v1.2-Python.html#cmacquisitionlistscript-overview",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2-Python/Scripting_Node–CMAcquisitionListScript_v1.2-Python.html#cmacquisitionlistscript-overview",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2.py",
-    "section": "CMAcquisitionListScript – Overview",
-    "text": "CMAcquisitionListScript – Overview"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2-Python/Scripting_Node–CMAcquisitionListScript_v1.2-Python.html#cmacquisitionlistscript-in-a-workflow",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2-Python/Scripting_Node–CMAcquisitionListScript_v1.2-Python.html#cmacquisitionlistscript-in-a-workflow",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2.py",
-    "section": "CMAcquisitionListScript in a Workflow",
-    "text": "CMAcquisitionListScript in a Workflow"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2-Python/Scripting_Node–CMAcquisitionListScript_v1.2-Python.html#cmacquisitionlistscript-conventions",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2-Python/Scripting_Node–CMAcquisitionListScript_v1.2-Python.html#cmacquisitionlistscript-conventions",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2.py",
-    "section": "CMAcquisitionListScript – Conventions",
-    "text": "CMAcquisitionListScript – Conventions"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2-Python/Scripting_Node–CMAcquisitionListScript_v1.2-Python.html#references",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2-Python/Scripting_Node–CMAcquisitionListScript_v1.2-Python.html#references",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2.py",
-    "section": "References",
-    "text": "References"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2-Python/Scripting_Node–CMAcquisitionListScript_v1.2-Python.html#download",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2-Python/Scripting_Node–CMAcquisitionListScript_v1.2-Python.html#download",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2.py",
-    "section": "Download",
-    "text": "Download"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2-Python/Scripting_Node–CMAcquisitionListScript_v1.2-Python.html#overview",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2-Python/Scripting_Node–CMAcquisitionListScript_v1.2-Python.html#overview",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2.py",
-    "section": "Overview",
-    "text": "Overview"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2-Python/Scripting_Node–CMAcquisitionListScript_v1.2-Python.html#usage",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2-Python/Scripting_Node–CMAcquisitionListScript_v1.2-Python.html#usage",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2.py",
-    "section": "Usage",
-    "text": "Usage"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2-Python/Scripting_Node–CMAcquisitionListScript_v1.2-Python.html#conventions",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2-Python/Scripting_Node–CMAcquisitionListScript_v1.2-Python.html#conventions",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2.py",
-    "section": "Conventions",
-    "text": "Conventions"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2-Python.html#overview",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2-Python.html#overview",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2.py",
-    "section": "Overview",
-    "text": "Overview"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2-Python.html#usage",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2-Python.html#usage",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2.py",
-    "section": "Usage",
-    "text": "Usage"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2-Python.html#conventions",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2-Python.html#conventions",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2.py",
-    "section": "Conventions",
-    "text": "Conventions"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2-Python.html#references",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2-Python.html#references",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2.py",
-    "section": "References",
-    "text": "References"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2-Python.html#download",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2-Python.html#download",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2.py",
-    "section": "Download",
-    "text": "Download"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2-R.html#overview",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2-R.html#overview",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2.r",
-    "section": "Overview",
-    "text": "Overview"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2-R.html#usage",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2-R.html#usage",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2.r",
-    "section": "Usage",
-    "text": "Usage"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2-R.html#conventions",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2-R.html#conventions",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2.r",
-    "section": "Conventions",
-    "text": "Conventions"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2-R.html#references",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2-R.html#references",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2.r",
-    "section": "References",
-    "text": "References"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2-R.html#download",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2-R.html#download",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2.r",
-    "section": "Download",
-    "text": "Download"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2-Python.html",
-    "href": "Compound-Discoverer/Scripting-Node/Scripting_Node–CMAcquisitionListScript_v1.2/Scripting_Node–CMAcquisitionListScript_v1.2-Python.html",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2.py",
-    "section": "",
-    "text": "Name: CMAcquisitionListScript_v1.2.py.\nDate Created/Modified: 15-05-2025.\nVersion: 1.2.\nSoftware Version(s):\n\nCompound Discoverer 3.3 SP3 (CD 3.3.3) and 3.4 (CD 3.4).\nChromeleon 7.3.2 (CM 7.3.2).\nOrbitrap Exploris GC Method Editor 4.1.3xx (OEGC ME 4.1.3) and above.\nMay be suitable for other versions of the above referenced software.\n\n\n\n\n\n\nCompound Discoverer Scripting Node Python script used to export data from Compound Discoverer as an Acquisition List.\n\nCan be imported into a Chromeleon CDS Processing Method using the Import Compound Data feature.\nCan be imported into Orbitrap Exploris GC Method Editor as a SIM Scan list.\nFor GC EI Workflows.\nFile Format: Exploris Orbitrap LCMS and GCMS Family (csv).\n\nNo Script Registration required.\n\n\n\n\n\nExports data (tables) listed in the node parameter Requested Tables and Columns.\n\nData are exported as tab-separated text files.\nRequires the following tables (in order): GC EI Compounds, GC EI Compounds per File, and Features per File.\nThe order of tables is important for the script.\nIncorrect order and/or typographical errors in the names of tables will result in Execution Failure error.\n\nWrites a node_args.json file:\n\nUsed by the script to receive information from the application.\nContains essential information about the exported data, including location of the text files and the row IDs and columns for the exported tables.\n\nDoes not produce a response (node_response.json) file – no results are imported/integrated back into Compound Discoverer result files.\nProduces csv files, Acquisition List and SIM Scan List, in the format Exploris Orbitrap LCMS and GCMS Family.\nGenerates lists of compounds each with up to its top three (3) largest (by area counts) m/z ions.\nThe files Acquisition List.csv and SIM Scan List.csv are saved in the local user’s Downloads folder (C:\\Users\\[user.name\\]\\Downloads).\n\n\n\n\n\nCompound Discoverer 3.1 and above.\n\nAuthor only tested Compound Discoverer 3.3 SP3 (CD 3.3.3) and 3.4 (CD 3.4).\n\nChromeleon CDS 7.3.2.\nOrbitrap Exploris GC Method Editor 4.1.3xx and above.\nThe latest release (recommended) of the programming language in which the script was written (Python) should be installed on the same computer running the Compound Discoverer application.\n\nFor Python, visit https://www.python.org.\n\nThe script requires the following Python Libraries, Packages, and Modules: json, os, pandas, sys, csv, traceback, and Path (from pathlib).\nIt is expected that the user using the script is already familiar with installation and configuration of the Python programming language and its environment(s), dependencies, and libraries.\n\nThis topic is outside the scope of this presentation.\n\n\n\n\n\nimport json                 # JSON encoder and decoder.\nimport os                   # Miscellaneous operating system interfaces.\nimport pandas as pd         # High-performance, easy-to-use data structures and data analysis tools for Python.\nimport sys                  # System-specific parameters and functions.\nimport csv                  # CSV File I/O.\nimport traceback            # Print or retrieve a stack traceback.\nfrom pathlib import Path    # Object-oriented filesystem paths."
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/CMAcquisitionListScript_v1.2/CMAcquisitionListScript_v1.2-Python.html#overview",
-    "href": "Compound-Discoverer/Scripting-Node/CMAcquisitionListScript_v1.2/CMAcquisitionListScript_v1.2-Python.html#overview",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2.py",
-    "section": "Overview",
-    "text": "Overview"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/CMAcquisitionListScript_v1.2/CMAcquisitionListScript_v1.2-Python.html#usage",
-    "href": "Compound-Discoverer/Scripting-Node/CMAcquisitionListScript_v1.2/CMAcquisitionListScript_v1.2-Python.html#usage",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2.py",
-    "section": "Usage",
-    "text": "Usage"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/CMAcquisitionListScript_v1.2/CMAcquisitionListScript_v1.2-Python.html#conventions",
-    "href": "Compound-Discoverer/Scripting-Node/CMAcquisitionListScript_v1.2/CMAcquisitionListScript_v1.2-Python.html#conventions",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2.py",
-    "section": "Conventions",
-    "text": "Conventions"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/CMAcquisitionListScript_v1.2/CMAcquisitionListScript_v1.2-Python.html#references",
-    "href": "Compound-Discoverer/Scripting-Node/CMAcquisitionListScript_v1.2/CMAcquisitionListScript_v1.2-Python.html#references",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2.py",
-    "section": "References",
-    "text": "References"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/CMAcquisitionListScript_v1.2/CMAcquisitionListScript_v1.2-Python.html#download",
-    "href": "Compound-Discoverer/Scripting-Node/CMAcquisitionListScript_v1.2/CMAcquisitionListScript_v1.2-Python.html#download",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2.py",
-    "section": "Download",
-    "text": "Download"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/CMAcquisitionListScript_v1.2/CMAcquisitionListScript_v1.2-R.html#overview",
-    "href": "Compound-Discoverer/Scripting-Node/CMAcquisitionListScript_v1.2/CMAcquisitionListScript_v1.2-R.html#overview",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2.r",
-    "section": "Overview",
-    "text": "Overview"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/CMAcquisitionListScript_v1.2/CMAcquisitionListScript_v1.2-R.html#usage",
-    "href": "Compound-Discoverer/Scripting-Node/CMAcquisitionListScript_v1.2/CMAcquisitionListScript_v1.2-R.html#usage",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2.r",
-    "section": "Usage",
-    "text": "Usage"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/CMAcquisitionListScript_v1.2/CMAcquisitionListScript_v1.2-R.html#conventions",
-    "href": "Compound-Discoverer/Scripting-Node/CMAcquisitionListScript_v1.2/CMAcquisitionListScript_v1.2-R.html#conventions",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2.r",
-    "section": "Conventions",
-    "text": "Conventions"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/CMAcquisitionListScript_v1.2/CMAcquisitionListScript_v1.2-R.html#references",
-    "href": "Compound-Discoverer/Scripting-Node/CMAcquisitionListScript_v1.2/CMAcquisitionListScript_v1.2-R.html#references",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2.r",
-    "section": "References",
-    "text": "References"
-  },
-  {
-    "objectID": "Compound-Discoverer/Scripting-Node/CMAcquisitionListScript_v1.2/CMAcquisitionListScript_v1.2-R.html#download",
-    "href": "Compound-Discoverer/Scripting-Node/CMAcquisitionListScript_v1.2/CMAcquisitionListScript_v1.2-R.html#download",
-    "title": "Compound Discoverer Scripting Node – CMAcquisitionListScript_v1.2.r",
-    "section": "Download",
-    "text": "Download"
+    "text": "Scientist with interests (mostly) in science, mathematics, and technology."
   }
 ]
