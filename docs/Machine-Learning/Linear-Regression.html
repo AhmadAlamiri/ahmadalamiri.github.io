@@ -345,37 +345,29 @@ ul.task-list li input[type="checkbox"] {
 
 <!-- Custom CSS to seamlessly style the dashboard header and append the BETA badge -->
 <style class="bslib-grid-item html-fill-item">
-  /* Format and clean up margins on the inner dashboard page header */
-    header.quarto-dashboard-header {
-        background-color: transparent !important;
-        border-bottom: none !important;
-        padding-bottom: 0px !important;
-        margin-bottom: -5px !important;
-    }
+/* Target any possible container Quarto uses to draw its internal inner headers */
+header.quarto-dashboard-header, 
+.quarto-dashboard-header,
+div.quarto-dashboard-header-title-container,
+[class*="dashboard-header"] {
+    display: none !important;
+    height: 0px !important;
+    padding: 0px !important;
+    margin: 0px !important;
+}
 
-  /* Select the dashboard H1 title text and force an inline CSS pseudo-element badge */
-    .quarto-dashboard-header h1, 
-    .quarto-dashboard-header-title-container h1 {
-        font-size: 1.6rem !important;
-        font-weight: 600 !important;
-        display: inline-flex !important;
-        align-items: center !important;
-    }
-
-  /* Create and inject the warning colored BETA badge directly next to the text natively */
-    .quarto-dashboard-header h1::after, 
-    .quarto-dashboard-header-title-container h1::after {
-        content: "BETA" !important;
-        background-color: #FFC107 !important; /* Bootstrap Warning Yellow */
-        color: #212529 !important;            /* Dark text for contrast readability */
-        font-size: 0.85rem !important;
-        font-weight: 700 !important;
-        padding: 0.25em 0.6em !important;
-        margin-left: 12px !important;
-        border-radius: 0.375rem !important;   /* Rounded badge styling */
-        letter-spacing: 0.05em !important;
-    }
+/* Pull the dashboard content container up to fill the empty space */
+#quarto-dashboard-content, 
+.quarto-dashboard-content {
+    padding-top: 5px !important;
+    margin-top: 0px !important;
+}
 </style>
+<!-- 2. HAND-CODED REPLACEMENT TITLE WITH INLINE BOOTSTRAP BADGE -->
+<div style="display: flex; align-items: center; margin-bottom: 15px; margin-top: 5px;" class="bslib-grid-item html-fill-item">
+<pre><code>&lt;h2 style="margin: 0; font-size: 1.6rem; font-weight: 600; color: inherit;"&gt;Linear Regression Diagnostic Dashboard&lt;/h2&gt;
+&lt;span class="badge bg-warning text-dark" style="margin-left: 12px; font-size: 0.85rem; font-weight: 700; padding: 0.35em 0.65em; border-radius: 0.375rem;"&gt;BETA&lt;/span&gt;</code></pre>
+</div>
 <div class="bslib-grid-item html-fill-item bslib-grid" data-layout="fill" style="display: grid; grid-template-rows: minmax(3em, 100fr); grid-auto-columns: minmax(0, 1fr);">
 <div class="bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr);
 grid-auto-rows: minmax(0, 1fr);">
