@@ -343,32 +343,32 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 
 
-<!-- 1. WIPE OUT ALL DEFAULT QUARTO CARD CONTENT HEADERS -->
+<!-- 1. BULLETPROOF CSS TO WIPE OUT DEFAULT INNER DASHBOARD TITLE BARS -->
 <style class="bslib-grid-item html-fill-item">
-    header.quarto-dashboard-header, 
-    .quarto-dashboard-header,
-    div.quarto-dashboard-header-title-container,
-    [class*="dashboard-header"] {
-        display: none !important;
-        height: 0px !important;
-        padding: 0px !important;
-        margin: 0px !important;
-    }
-    
-    #quarto-dashboard-content, 
-    .quarto-dashboard-content {
-        padding-top: 5px !important;
-        margin-top: 0px !important;
-    }
+header.quarto-dashboard-header, 
+.quarto-dashboard-header,
+div.quarto-dashboard-header-title-container,
+[class*="dashboard-header"] {
+    display: none !important;
+    height: 0px !important;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+#quarto-dashboard-content, 
+.quarto-dashboard-content {
+    padding-top: 5px !important;
+    margin-top: 0px !important;
+}
 </style>
-<!-- 2. RAW HTML ROW THAT GUARANTEES TITLE AND BADGE SIT ON THE SAME LINE -->
+<!-- 2. PANDOC RAW HTML BLOCK: FORCES THE TEXT AND BADGE TO STAY ON A SINGLE LINE -->
 <div style="display: block; width: 100%; margin-bottom: 15px; margin-top: 5px;" class="bslib-grid-item html-fill-item">
-<pre><code>&lt;h2 style="margin: 0; font-size: 1.6rem; font-weight: 600; display: inline-block; vertical-align: middle; color: inherit;"&gt;
-    Linear Regression Diagnostic Dashboard
-&lt;/h2&gt;
-&lt;span class="badge bg-warning text-dark" style="margin-left: 12px; font-size: 0.85rem; font-weight: 700; padding: 0.35em 0.65em; display: inline-block; vertical-align: middle; border-radius: 0.375rem;"&gt;
-    BETA
-&lt;/span&gt;</code></pre>
+<h2 style="margin: 0; font-size: 1.6rem; font-weight: 600; display: inline-block; vertical-align: middle; color: inherit;">
+Linear Regression Diagnostic Dashboard
+</h2>
+<span class="badge bg-warning text-dark" style="margin-left: 12px; font-size: 0.85rem; font-weight: 700; padding: 0.35em 0.65em; display: inline-block; vertical-align: middle; border-radius: 0.375rem;">
+BETA
+</span>
 </div>
 <div class="bslib-grid-item html-fill-item bslib-grid" data-layout="fill" style="display: grid; grid-template-rows: minmax(3em, 100fr); grid-auto-columns: minmax(0, 1fr);">
 <div class="bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr);
@@ -376,44 +376,40 @@ grid-auto-rows: minmax(0, 1fr);">
 <div class="card bslib-card html-fill-container" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
 <iframe src="Linear-Regression-App/index.html" style="width:100%; height:850px; border:none;" id="shiny-app-iframe">
 </iframe>
-<!-- 3. BULLETPROOF THEME SYNC INTERCEPTOR -->
+<!-- 3. ADVANCED TIMED HANDSHAKE THEME SYNC SCRIPT -->
 <script>
-    document.addEventListener("DOMContentLoaded", function() {
-        const iframe = document.getElementById('shiny-app-iframe');
-        
-        // Function to extract current active layout theme
-        function getActiveTheme() {
-        const isDark = document.documentElement.classList.contains('quarto-dark') || 
-                        document.body.classList.contains('quarto-dark') ||
-                        document.documentElement.getAttribute('data-bs-theme') === 'dark';
-        return isDark ? 'dark' : 'light';
-        }
+document.addEventListener("DOMContentLoaded", function() {
+const iframe = document.getElementById('shiny-app-iframe');
 
-        // Function to relay theme state cleanly down inside the iframe
-        function sendThemeToShiny() {
-        if (iframe && iframe.contentWindow) {
-            const theme = getActiveTheme();
-            iframe.contentWindow.postMessage({ type: 'set-shiny-theme', theme: theme }, '*');
-        }
-        }
+function getActiveTheme() {
+    const isDark = document.documentElement.classList.contains('quarto-dark') || 
+                    document.body.classList.contains('quarto-dark') ||
+                    document.documentElement.getAttribute('data-bs-theme') === 'dark';
+    return isDark ? 'dark' : 'light';
+}
 
-        // Force application sync instantly when iframe surfaces
-        iframe.addEventListener('load', sendThemeToShiny);
+function sendThemeToShiny() {
+    if (iframe && iframe.contentWindow) {
+    const theme = getActiveTheme();
+    iframe.contentWindow.postMessage({ type: 'set-shiny-theme', theme: theme }, '*');
+    }
+}
 
-        // Patch Quarto\'s native color framework function to loop our synchronization code
-        if (window.quartoToggleColorScheme) {
-        const originalQuartoToggle = window.quartoToggleColorScheme;
-        window.quartoToggleColorScheme = function() {
-            originalQuartoToggle(); // Run Quarto\'s native logic
-            setTimeout(sendThemeToShiny, 50);  // Sync theme to Shiny app immediately
-            setTimeout(sendThemeToShiny, 250); // Secondary backup check
-        };
-        }
+// Interval handshake ensures theme binds successfully even if the WebAssembly finishes loading late
+iframe.addEventListener('load', function() {
+    sendThemeToShiny();
+    let syncCounter = 0;
+    const syncInterval = setInterval(function() {
+    sendThemeToShiny();
+    syncCounter++;
+    if (syncCounter > 10) clearInterval(syncInterval); // Clear after 2.5 seconds
+    }, 250);
+});
 
-        // Secondary Mutation Observer fallback if the navbar buttons bypass the toggle function
-        const observer = new MutationObserver(sendThemeToShiny);
-        observer.observe(document.documentElement, { attributes: true, attributeFilter: ['data-bs-theme', 'class'] });
-    });
+// Listen for theme mutations directly on the website container tag
+const observer = new MutationObserver(sendThemeToShiny);
+observer.observe(document.documentElement, { attributes: true, attributeFilter: ['data-bs-theme', 'class'] });
+});
 </script>
 <bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
     <template>Expand</template>
